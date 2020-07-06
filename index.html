@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>New York Times Search</title>
+    <!-- Bulma Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css">
+    <!-- Personal Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+   
+  </head>
+  
+  <body>
+    <!-- Hero -->
+    <section class="hero is-info">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">New York Times Search</h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- Search Parameters Panel -->
+    <div class="column is-12">  
+    
+      <nav class="panel">
+        <p class="panel-heading">Search Parameters</p>
+        
+
+    <div class="block">
+          <form>
+          <div class="field">
+          <label class="label">Search Term:</label>
+            <input class="input" type="text" placeholder="" id="searchTerm">
+          </div>
+          </form>
+        </div>
+
+      <div class="block">
+        <label class="label">Number of Records to Retrieve:</label>
+        <select id="numRecords" class="custom-select" aria-labelledby="dropdownMenuButton">
+          <option selected value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <!-- Setting the option for 5 as default -->
+          <option value="5" selected>5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+        
+        <div class="block">
+          <form>
+          <div class="field">
+          <label class="label">Start Year (Optional):</label>
+            <input class="input" type="text" placeholder="" id="startYear">
+          </div>
+          </form>
+        </div>
+
+        <div class="block">
+          <form>
+          <div class="field">
+          <label class="label">End Year (Optional):</label>
+            <input class="input" type="text" placeholder="" id="endYear">
+          </div>
+          </form>
+        </div>
+          
+        <div class="field is-grouped">
+          <div class="control">
+            <button class="button is-info" id="searchBtn">Search</button>
+            <button class="button is-light" id="clearBtn">Clear Results</button>
+          </div>
+        </div>
+      </nav>
+      </div> 
+
+      <!-- Results Panel -->
+      <div class="column is-12"> 
+
+      <nav class="panel">
+        <p class="panel-heading">Search Results</p>
+        <div class="panel" id="articlesSection">
+          
+        </div>
+      </nav>
+
+      </div>
+  
+  <!-- jQuery Javascript -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <!-- Link to Personal Javascript -->
+  <script type="text/javascript" src="main.js"></script>
+  </body>
+  </html>
