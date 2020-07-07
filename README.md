@@ -60,8 +60,8 @@ The following example of usage displays the use of the ajax call to the New York
 var queryURL = buildQueryURL();
 
 $.ajax({
-    url: queryURL,
-    method: "GET"
+url: queryURL,
+method: "GET"
 }).then(updatePage);
 ~~~
 
