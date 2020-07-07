@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan&display=swap');
+
 .hero-body {
     margin-bottom: 20px;
 }
 
 .title {
     text-align: center;
+    font-family: 'Bevan', cursive;
     font-weight: bold;
     font-size: 300%;
 }
@@ -24,6 +27,15 @@
     border-color: lightgrey;
     border-radius: 10px;
 }
+
+#icon {
+    margin-right: 10px;
+}
+
+#newspaperIcon {
+    margin-right: 20px;   
+}
+
 
 
 

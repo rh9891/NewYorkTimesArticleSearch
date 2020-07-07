@@ -6,6 +6,8 @@
     <title>New York Times Search</title>
     <!-- Bulma Stylesheet -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css">
+    <!-- Font Awesome Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <!-- Personal Stylesheet -->
     <link rel="stylesheet" href="style.css">
    
@@ -16,26 +18,24 @@
     <section class="hero is-info">
       <div class="hero-body">
         <div class="container">
-          <h1 class="title">New York Times Search</h1>
+          <h1 class="title"><i class="far fa-newspaper" id="newspaperIcon"></i>New York Times Search</h1>
         </div>
       </div>
     </section>
 
     <!-- Search Parameters Panel -->
     <div class="column is-12">  
-    
       <nav class="panel">
         <p class="panel-heading">Search Parameters</p>
         
-
-    <div class="block">
+      <div class="block">
           <form>
           <div class="field">
           <label class="label">Search Term:</label>
             <input class="input" type="text" placeholder="" id="searchTerm">
           </div>
           </form>
-        </div>
+      </div>
 
       <div class="block">
         <label class="label">Number of Records to Retrieve:</label>
@@ -54,44 +54,41 @@
         </select>
       </div>
         
-        <div class="block">
-          <form>
-          <div class="field">
-          <label class="label">Start Year (Optional):</label>
-            <input class="input" type="text" placeholder="" id="startYear">
-          </div>
-          </form>
+      <div class="block">
+        <form>
+        <div class="field">
+        <label class="label">Start Year (Optional):</label>
+          <input class="input" type="text" placeholder="" id="startYear">
         </div>
+        </form>
+      </div>
 
-        <div class="block">
-          <form>
-          <div class="field">
-          <label class="label">End Year (Optional):</label>
-            <input class="input" type="text" placeholder="" id="endYear">
-          </div>
-          </form>
+      <div class="block">
+        <form>
+        <div class="field">
+        <label class="label">End Year (Optional):</label>
+          <input class="input" type="text" placeholder="" id="endYear">
         </div>
+        </form>
+      </div>
           
-        <div class="field is-grouped">
-          <div class="control">
-            <button class="button is-info" id="searchBtn">Search</button>
-            <button class="button is-light" id="clearBtn">Clear Results</button>
-          </div>
+      <div class="field is-grouped">
+        <div class="control">
+          <button class="button is-info" id="searchBtn"><i class="fas fa-search" id="icon"></i>Search</button>
+          <button class="button is-light" id="clearBtn"><i class="fas fa-trash" id="icon"></i>Clear Results</button>
         </div>
+      </div>
       </nav>
-      </div> 
+    </div> 
 
       <!-- Results Panel -->
-      <div class="column is-12"> 
-
+    <div class="column is-12"> 
       <nav class="panel">
         <p class="panel-heading">Search Results</p>
         <div class="panel" id="articlesSection">
-          
         </div>
       </nav>
-
-      </div>
+    </div>
   
   <!-- jQuery Javascript -->
   <script src="https://code.jquery.com/jquery.js"></script>
