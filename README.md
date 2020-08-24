@@ -1,6 +1,6 @@
 # New York Times Article Search
 
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
 *  [Description](#description)
@@ -78,9 +78,9 @@ Listed below are the frameworks and guides that made building this article searc
 
 ## License
 
-MIT License
+The MIT License (MIT)
 
-Copyright (c) [2020] [Romie Hecdivert]
+Copyright (c) 2020 Romie Hecdivert
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
