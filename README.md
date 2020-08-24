@@ -1,5 +1,7 @@
 # New York Times Article Search
 
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+
 ## Table of Contents
 *  [Description](#description)
 *  [User Story](#user-story)
@@ -28,7 +30,8 @@ SO THAT I can retrieve a list of articles to read.
 ~~~
 GIVEN a New York Times article search application with form inputs  
 WHEN I search for a term  
-THEN I am presented with relevant articles that include the search term  
+THEN I am presented with relevant articles that include the search term.  
+
 WHEN I use the search parameters, such as its start year and its end year,  
 THEN I am presented with relevant articles that adhere to the search parameters.
 ~~~
@@ -75,10 +78,28 @@ Listed below are the frameworks and guides that made building this article searc
 
 ## License
 
-This application does not currently have any licenses.
+MIT License
 
-The user is not permitted to use, modify, or share any parts of it. Though the code for this application is hosted on Github, where you are allowed to view and fork the code, this does not imply that the user is permitted to use, modify, or share the contents of this application for any purpose.
+Copyright (c) [2020] [Romie Hecdivert]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ## Questions
 
-If you have any questions, comments, or issues regarding this New York Times article search application, please don't hesitate to contact me either via [Github](https://github.com/rh9891) or via email at <romie.hecdivert@gmail.com>.
+If you have any questions, comments, or issues regarding this New York Times article search application, please don't hesitate to contact me via [Github](https://github.com/rh9891).
