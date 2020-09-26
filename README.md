@@ -48,7 +48,9 @@ The following images demonstrate the application functionality:
 
 The following GIF demonstrates the application functionality, showcasing the application's ability to clear results and specify the number of records to retrieve:
 
-![Obama Search Preview](https://github.com/rh9891/NewYorkTimesArticleSearch/blob/master/assets/images/obamaSearchpreview.gif)
+<p align="center">
+  <img src="https://github.com/rh9891/NewYorkTimesArticleSearch/blob/master/assets/images/obamaSearchpreview.gif">
+</p>
 
 ## Links
 
